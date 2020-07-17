@@ -15,7 +15,7 @@ namespace azure.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "azure", "project" };
+            return new string[] { "azure", "project" ,"modified"};
         }
 
         // GET: api/value/5
